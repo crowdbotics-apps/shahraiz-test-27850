@@ -10,3 +10,4 @@ export default {
   createHubSpotDeal: true,
   createSlackChannel: true
 };
+
