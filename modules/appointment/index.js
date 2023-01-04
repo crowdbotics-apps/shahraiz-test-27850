@@ -5,6 +5,7 @@ import { LogBox } from "react-native"; // @ts-ignore
 import { GoogleSignin } from "@react-native-google-signin/google-signin";
 import { OptionsContext } from "@options";
 
+
 const Appointment = () => {
   const options = useContext(OptionsContext);
   LogBox.ignoreLogs(["VirtualizedLists should never be nested"]);
